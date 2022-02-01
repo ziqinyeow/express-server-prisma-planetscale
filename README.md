@@ -8,8 +8,9 @@
   <a href="https://www.prisma.io/">Prisma</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://planetscale.com/">Planetscale</a>
+  <br />
+    https://dengue-api.herokuapp.com/
 </div>
-https://dengue-api.herokuapp.com/
 <hr>
 <br />
 
