@@ -11,6 +11,58 @@
 </div>
 
 <hr>
+<br />
+
+```
+               get("/detail/:email")
+                   description: get all the detail record of user by providing its email behind the endpoint
+
+               post("/detail")
+                   description: create the detail record
+                   body: email, temperature, blood_pressure, pulse_rate, hemoglobin, hematocrit, white_cell, platelet
+
+               put("/detail/:id")
+                   description: update the detail record
+                   body: temperature, blood_pressure, pulse_rate, hemoglobin, hematocrit, white_cell, platelet
+
+               get("/news")
+                   description: get all the news record from the news table
+
+               post("/news")
+                   description: create a news record in the database
+                   body: title, text
+
+               put("/news/:id")
+                   description: update the news record by providing the news id behind the endpoint
+                   body: title, text
+
+               post("/task")
+                   description: create a task record in the task table
+                   body: name, description
+
+               get("/task")
+                   description: get all the task from the task table
+
+               get("/task/:id")
+                   description: get specific task by providing the task id behind the endpoint
+
+               put("/task/:id")
+                   description: update a task record
+                   body: name, description
+
+               get("/email")
+                   description: get the all the detail of the user
+
+               post("/signup")
+                   description: signup the user
+                   body: email, password
+
+               post("login")
+                   description: login user
+                   body: email, password
+```
+
+<hr>
 
 ```
 src
