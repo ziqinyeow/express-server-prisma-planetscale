@@ -9,6 +9,7 @@ export const get = async (req: Request, res: Response) => {
     res.status(400).json({ message: "Unable to find user detail data" });
   }
 };
+
 export const create = async (req: Request, res: Response) => {
   const { title, text } = req.body;
   try {
@@ -23,6 +24,7 @@ export const create = async (req: Request, res: Response) => {
     res.status(400).json({ message: "Unable to create user detail data" });
   }
 };
+
 export const update = async (req: Request, res: Response) => {
   const { id } = req.params;
   const { title, text } = req.body;

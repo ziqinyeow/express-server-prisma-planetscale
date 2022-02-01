@@ -1,8 +1,8 @@
 import express from "express";
 import {
+  create,
   getAll,
   getSpecific,
-  create,
   update,
 } from "../controllers/Task.controller";
 
