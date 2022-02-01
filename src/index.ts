@@ -14,7 +14,7 @@ app.use(express.json()); // body-parse
 app.use(helmet()); // secure with helmet
 app.use(middlewares.cors); // cross-origin resources sharing policy
 app.use(middlewares.rate_limit(10, 100)); // prevent brute force & ddos attack
-app.use(middlewares.jwt); // secure with jwt token
+app.use(middlewares.jwt); // secure the api with jwt token
 
 // Route
 app.use("/user", routes.user);
